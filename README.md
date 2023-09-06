@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
    <style>
@@ -30,7 +30,7 @@
 
       function ZoomIn() {
          let zoomValue = parseInt(zoomRange.value);
-         if (zoomValue < 150) {
+         if (zoomValue < 200) {
             zoomRange.value = zoomValue + 10;
             Zoom();
          }
@@ -38,7 +38,7 @@
 
       function ZoomOut() {
          let zoomValue = parseInt(zoomRange.value);
-         if (zoomValue > 70) {
+         if (zoomValue > 50) {
             zoomRange.value = zoomValue - 10;
             Zoom();
          }
